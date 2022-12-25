@@ -1,0 +1,48 @@
+
+
+#buttoncourse{
+    margin-left: 480px;
+}
+
+@media(max-width:762px){
+    #a1{
+        
+       font-size: x-large;
+    } 
+    #a2{
+        font-size: 13px;
+    } 
+    #buttoncourse{
+        margin-left: 100px;
+    }
+    
+    
+}
+@media(min-width:762px) and (max-width:960px){
+    #buttoncourse{
+        margin-left: 280px;
+    }
+}
+.corousal:hover{
+    box-shadow: 1px 2px 25px 2px rgb(158, 156, 156);
+    transform: scale(1.01);
+}
+.card:hover{
+    box-shadow: 1px 2px 25px 2px rgb(160, 157, 157);
+    transform: scale(1.01);
+}
+#buttoncourse:hover{
+    background-color:darkmagenta;
+    color: white;
+}
+.carousel-caption{
+    animation: anim 1s ease-in-out  1;
+}
+@keyframes anim {
+    from{
+        margin-bottom: 0px;
+    }
+    to{
+        margin-bottom: 40px;
+    }
+}
